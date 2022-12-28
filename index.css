@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+header{
+    margin-left: 5%;
+    margin-top: 2.5%;
+    font-size: 250%;
+}
+
+nav{
+    margin-left: 50%;
+    margin-top: -2%;
+    font-size: 150%;
+}
+
+nav a{
+    margin: 3%;
+    text-decoration: underline 2px rgba(96, 33, 243, 0);
+    text-underline-offset: 5px;
+    transition: text-decoration-color 500ms, font-size 500ms;
+    padding: 0%;
+    color:rgb(96, 33, 243);
+}
+
+nav a:hover{
+    text-decoration-color: rgba(203, 184, 248, 1); 
+    font-size: 115%;
+}
