@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: "balls";
+    src: url("Sketch Gothic School.ttf") format("ttf");
+    src: url("Sketch Gothic School.woff2") format("woff2");
+    src: url("Sketch Gothic School.woff") format("woff");
+
+    }
+
+header{
+    margin-left: 5%;
+    margin-top: 2.5%;
+    font-size: 300%;
+    font-family: "balls";
+}
+
+header a{
+    color: black;
+    text-decoration: dashed;
+    font-family: "balls";
+}
+
+nav{
+    margin-left: 50%;
+    margin-top: -2%;
+    font-size: 150%;
+}
+
+nav a{
+    margin: 3%;
+    text-decoration: underline 2px rgba(96, 33, 243, 0);
+    text-underline-offset: 5px;
+    transition: text-decoration-color 500ms, font-size 500ms;
+    padding: 0%;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration-color: rgba(203, 184, 248, 1); 
+    font-size: 115%;
+}
