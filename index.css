@@ -1,17 +1,27 @@
+
+
 *{
     margin: 0;
 }
 
+@font-face {
+    font-family: "balls";
+    src: url("Sketch Gothic School.ttf") format("ttf"),
+    }
+
 header{
     margin-left: 5%;
     margin-top: 2.5%;
-    font-size: 250%;
+    font-size: 300%;
+    font-family: "balls";
+    color:whitesmoke
 }
 
 nav{
     margin-left: 50%;
     margin-top: -2%;
     font-size: 150%;
+    
 }
 
 nav a{
