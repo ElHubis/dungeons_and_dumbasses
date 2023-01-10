@@ -40,7 +40,13 @@ nav a:hover{
     font-size: 115%;
 }
 
-
+.characters{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    margin-left: 35%;
+    margin-top: 5%;
+    gap: 20px 20px;
+}
 
 .characters a{
     color: black;
