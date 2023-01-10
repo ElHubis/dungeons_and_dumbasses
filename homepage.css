@@ -39,6 +39,4 @@ nav a{
 
 nav a:hover{
     text-decoration-color: rgba(203, 184, 248, 1); 
-    font-size:115%;
-    position: static;
 }
