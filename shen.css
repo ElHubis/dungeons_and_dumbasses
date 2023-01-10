@@ -3,9 +3,11 @@
 }
 
 @font-face {
-    font-family: "balls";
-    src: url("Sketch Gothic School.ttf") format("ttf"),
-    }
+    font-family: 'balls';
+    src: url("sgs.ttf") format("truetype");
+    src: url("sgs.woff2") format("woff2");
+    src: url("sgs.woff") format("woff");
+}
 
 header{
     margin-left: 5%;

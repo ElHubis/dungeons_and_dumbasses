@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'balls';
-    src: url("sgs.ttf") format("ttf");
+    src: url("sgs.ttf") format("truetype");
     src: url("sgs.woff2") format("woff2");
     src: url("sgs.woff") format("woff");
 }
@@ -39,5 +39,6 @@ nav a{
 
 nav a:hover{
     text-decoration-color: rgba(203, 184, 248, 1); 
-    font-size: 115%;
+    font-size:115%;
+    position: static;
 }
