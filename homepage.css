@@ -32,11 +32,27 @@ nav a{
     margin: 3%;
     text-decoration: underline 2px rgba(96, 33, 243, 0);
     text-underline-offset: 5px;
-    transition: text-decoration-color 500ms, font-size 500ms;
     padding: 0%;
     color: black;
 }
 
-nav a:hover{
-    text-decoration-color: rgba(203, 184, 248, 1); 
+nav a.left {
+    position: relative;
+}
+
+nav a.left:after {
+    content: "";
+    position: absolute;
+    width: 0;;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    visibility: hidden;
+    transition: all 250ms ease-in-out;
+}
+
+nav a.left:hover:after {
+    visibility: visible;
+    width: 100%;
 }
