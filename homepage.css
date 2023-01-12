@@ -52,7 +52,7 @@ nav a.left:after {
     left: 0;
     background-color: #000000;
     transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    transition: transform 250ms ease-out;
 }
 
 nav a.left:hover:after {
