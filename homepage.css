@@ -37,22 +37,25 @@ nav a{
 }
 
 nav a.left {
+    display: inline-block;
     position: relative;
+    color: #000000;
 }
 
 nav a.left:after {
-    content: "";
+    content: '';
     position: absolute;
-    width: 0;;
+    width: 100%;
+    transform: scaleX(0);
     height: 2px;
     bottom: 0;
     left: 0;
     background-color: #000000;
-    visibility: hidden;
-    transition: all 250ms ease-in-out;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
 }
 
 nav a.left:hover:after {
-    visibility: visible;
-    width: 100%;
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
