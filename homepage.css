@@ -17,7 +17,7 @@ header{
 }
 
 header a{
-    color: black;
+    color: #0e0229;
     text-decoration: dashed;
     font-family: 'balls';
 }
@@ -33,13 +33,13 @@ nav a{
     text-decoration: underline 2px rgba(96, 33, 243, 0);
     text-underline-offset: 5px;
     padding: 0%;
-    color: black;
+    color: #0e0229;
 }
 
 nav a.left {
     display: inline-block;
     position: relative;
-    color: #000000;
+    color: #0e0229;
 }
 
 
@@ -49,14 +49,14 @@ nav a.left:after {
     width: 100%;
     transform: scaleX(0);
     height: 2px;
-    bottom: 0;
+    bottom: 1px;
     left: 0;
-    background-color: #000000;
+    background-color: #0e0229;
     transform-origin: bottom right;
     transition: transform 250ms ease-out;
 }
 
 nav a.left:hover:after {
-    transform: scaleX(1);
+    transform:scaleX(1);
     transform-origin: bottom left;
 }
