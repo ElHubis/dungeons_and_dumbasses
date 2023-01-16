@@ -48,8 +48,8 @@ nav a.left:after {
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 2px;
-    bottom: 1px;
+    height: 3px;
+    bottom: 0px;
     left: 0;
     background-color: #0e0229;
     transform-origin: bottom right;
