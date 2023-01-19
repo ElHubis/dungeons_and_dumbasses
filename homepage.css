@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body{
+    background-color:#e4dabf;
+}
+
 @font-face {
     font-family: 'balls';
     src: url("sgs.ttf") format("truetype");
@@ -61,9 +65,6 @@ nav a.left:hover:after {
     transform-origin: bottom left;
 }
 
-body{
-    background-color:#e4dabf;
-    }
 div {
     margin-top: 5%;
     margin-left: 3%;
