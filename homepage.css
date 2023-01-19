@@ -62,5 +62,16 @@ nav a.left:hover:after {
 }
 
 body{
-    background-color:#feffde;
+    background-color:#e4dabf;
     }
+div {
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 115%;
+}
+
+footer {
+    margin-top: 35%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
