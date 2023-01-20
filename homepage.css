@@ -4,6 +4,7 @@
 
 body{
     background-color:#e4dabf;
+    margin: 0;
 }
 
 @font-face {
@@ -73,9 +74,12 @@ div {
 
 footer {
     margin-top: 35%;
-    margin-left: 5%;
     margin-bottom: 2%;
+    background-color: aqua;
+}
 
+footer p{
+    margin-left: 5%;
 }
 
 footer a{
