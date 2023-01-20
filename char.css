@@ -2,6 +2,9 @@
     margin: 0;
 }
 
+body{
+    background-color:#e4dabf;
+}
 @font-face {
     font-family: 'balls';
     src: url("sgs.ttf") format("truetype");
@@ -12,12 +15,12 @@
 header{
     margin-left: 5%;
     margin-top: 2.5%;
-    font-size: 300%;
+    font-size: 350%;
     font-family: 'balls', Fallback, sans-serif;
 }
 
 header a{
-    color: black;
+    color: #06022c;
     text-decoration: dashed;
     font-family: 'balls';
 }
@@ -33,13 +36,13 @@ nav a{
     text-decoration: underline 2px rgba(96, 33, 243, 0);
     text-underline-offset: 5px;
     padding: 0%;
-    color: black;
+    color: #06022c;
 }
 
 nav a.left {
     display: inline-block;
     position: relative;
-    color: #000000;
+    color: #06022c;
 }
 
 
@@ -48,12 +51,12 @@ nav a.left:after {
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
+    height: 3px;
+    bottom: 0px;
     left: 0;
-    background-color: #000000;
+    background-color: #06022c;
     transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    transition: transform 250ms ease-out;
 }
 
 nav a.left:hover:after {
@@ -77,4 +80,20 @@ nav a.left:hover:after {
 .char{
     padding: 10%;
     
+}
+
+footer {
+    margin-top: 39.5%;
+    height: 360px;
+    background-color: aqua;
+}
+
+footer p{
+    margin-left: 5%;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
