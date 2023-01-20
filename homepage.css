@@ -4,7 +4,6 @@
 
 body{
     background-color:#e4dabf;
-    margin: 0;
 }
 
 @font-face {
@@ -80,6 +79,7 @@ footer {
 
 footer p{
     margin-left: 5%;
+    margin-top: 30%;
 }
 
 footer a{
