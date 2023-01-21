@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+:root { 
+    --text-color: #06022c;
+
+}
 body{
     background-color:#e4dabf;
 }
@@ -21,7 +25,7 @@ header{
 }
 
 header a{
-    color: #06022c;
+    color: var(--text-color);
     text-decoration: dashed;
     font-family: 'balls';
 }
