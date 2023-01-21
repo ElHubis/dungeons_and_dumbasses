@@ -23,7 +23,7 @@ header{
 }
 
 header a{
-    color: var(--text-color);
+    color: var(--text-color);   
     text-decoration: dashed;
     font-family: 'balls';
 }
@@ -76,16 +76,28 @@ div {
 footer {
     margin-top: 39.5%;
     height: 360px;
-    background-color: aqua;
+    background-color: #c5b999;
 }
 
 footer p{
-    margin-left: 5%;
-    padding-top: 3%;
+
+    padding-left: 5%;
+    padding-top: 3rem;
 }
 
 footer a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+#GitHubLogo {
+    fill:#06022c;
+    scale:0.4;
+    transform:translate(12rem , 7rem);
+
+}
+.about p {
+    font-family: 'balls';
+    font-size: 250%;
+    margin-left: -4%;
 }
