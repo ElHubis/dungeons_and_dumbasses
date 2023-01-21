@@ -67,22 +67,19 @@ nav a.left:hover:after {
     transform-origin: bottom left;
 }
 
-div {
+.intro {
     margin-top: 5%;
     margin-left: 3%;
     font-size: 115%;
 }
 
-footer {
+footer{
     margin-top: 39.5%;
-    height: 360px;
     background-color: #c5b999;
 }
 
-footer p{
-
-    padding-left: 5%;
-    padding-top: 3rem;
+.creators p{
+    margin-left: 5%;
 }
 
 footer a{
@@ -90,14 +87,16 @@ footer a{
     color: black;
     font-weight: bold;
 }
+
+.about p {
+    font-family: 'balls';
+    font-size: 250%;
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
 #GitHubLogo {
     fill:#06022c;
     scale:0.4;
     transform:translate(12rem , 7rem);
-
-}
-.about p {
-    font-family: 'balls';
-    font-size: 250%;
-    margin-left: -4%;
 }
