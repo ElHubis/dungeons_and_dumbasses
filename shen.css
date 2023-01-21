@@ -65,6 +65,14 @@ nav a.left:hover:after {
     transform-origin: bottom left;
 }
 
+
+div{
+    margin-top: 5%;
+    margin-left: 3%;
+    max-width: 50%;
+    font-size: large;
+
+}
 footer {
     margin-top: 39.5%;
     height: 360px;
