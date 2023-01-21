@@ -1,13 +1,11 @@
-*{
-    margin: 0;
-}
-
 :root { 
     --text-color: #06022c;
 
 }
+
 body{
     background-color:#e4dabf;
+    margin: 0;
 }
 
 @font-face {
@@ -83,7 +81,7 @@ footer {
 
 footer p{
     margin-left: 5%;
-    margin-top: 30%;
+    padding-top: 3%;
 }
 
 footer a{

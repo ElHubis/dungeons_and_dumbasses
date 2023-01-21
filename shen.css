@@ -1,9 +1,11 @@
-*{
-    margin: 0;
+:root { 
+    --text-color: #06022c;
+
 }
 
 body{
     background-color:#e4dabf;
+    margin: 0;
 }
 
 @font-face {
