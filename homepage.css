@@ -1,10 +1,11 @@
 :root { 
-    --text-color: #06022c;
-
+    --text-main: #06022c;
+    --color-bg: #e4dabf;
+    --color-footer: #c5b999;
 }
 
 body{
-    background-color:#e4dabf;
+    background-color:var(--color-bg);
     margin: 0;
 }
 
@@ -23,7 +24,7 @@ header{
 }
 
 header a{
-    color: var(--text-color);   
+    color: var(--text-main);   
     text-decoration: dashed;
     font-family: 'balls';
 }
@@ -39,13 +40,13 @@ nav a{
     text-decoration: underline 2px rgba(96, 33, 243, 0);
     text-underline-offset: 5px;
     padding: 0%;
-    color: #06022c;
+    color: var(--text-main);
 }
 
 nav a.left {
     display: inline-block;
     position: relative;
-    color: #06022c;
+    color: var(--text-main);
 }
 
 
@@ -57,7 +58,7 @@ nav a.left:after {
     height: 3px;
     bottom: 0px;
     left: 0;
-    background-color: #06022c;
+    background-color: var(--text-main);
     transform-origin: bottom right;
     transition: transform 250ms ease-out;
 }
@@ -75,7 +76,7 @@ nav a.left:hover:after {
 
 footer{
     margin-top: 39.5%;
-    background-color: #c5b999;
+    background-color: var(--color-footer);
 }
 
 .creators p{
@@ -84,7 +85,7 @@ footer{
 
 footer a{
     text-decoration: none;
-    color: black;
+    color: var(--text-main);
     font-weight: bold;
 }
 
@@ -93,10 +94,11 @@ footer a{
     font-size: 250%;
     margin-left: 5%;
     padding-top: 2%;
+    color: var(--text-main)
 }
 
 #GitHubLogo {
-    fill:#06022c;
+    fill:var(--text-main);
     scale:0.4;
     transform:translate(12rem , 7rem);
 }
