@@ -11,9 +11,9 @@ body{
 
 @font-face {
     font-family: 'balls';
-    src: url("fonts/sgs.ttf") format("truetype");
-    src: url("fonts/sgs.woff2") format("woff2");
-    src: url("fonts/sgs.woff") format("woff");
+    src: url("sgs.ttf") format("truetype");
+    src: url("sgs.woff2") format("woff2");
+    src: url("sgs.woff") format("woff");
 }
 
 header{
