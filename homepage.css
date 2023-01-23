@@ -118,10 +118,11 @@ footer a{
     color: var(--text-main)
 }
 
-#GitHubLogo {
-    fill:var(--text-main);
-    scale:0.4;
-    transform:translate(12rem , 7rem);
+footer img {
+    height:2%;
+    width: 2%;
+    margin-left: 6rem;
+    margin-bottom: 6rem;
 }
 
 @keyframes fade {
