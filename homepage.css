@@ -74,7 +74,7 @@ nav a.left:hover:after {
     background-color: var(--color-footer);
     border: none;
     padding: 1%;
-    width: 60%;
+    width: 40%;
     text-align: left;
     font-size: 30px;
     font-family: fairplex-wide, serif;
@@ -84,11 +84,14 @@ nav a.left:hover:after {
 
 .intro_text{
     background-color: var(--color-footer);
-    width: 59%;
+    width: 39%;
     padding-left: 1%;
     margin-top: -2%;
     display: none;
     font-size: 20px;
+    font-family: fairplex-narrow, serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .intro_text:hover{
