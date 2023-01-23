@@ -73,6 +73,27 @@ nav a.left:hover:after {
     margin-left: 3%;
     font-size: 115%;
 }
+div.intro a.hide {
+    margin-top: 0%;
+    margin-left: 3%;
+    font-size: 115%;
+    display: none;
+    color:var(--text-main);
+}
+div.intro a.show {
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 115%;
+    color:var(--text-main);
+    padding:0.24rem;
+    background-color: var(--color-footer);
+    border-radius: 5px;
+}
+div.intro a.show:hover + .hide{
+    display:block;
+    color: var(--text-main);
+    animation: fade 250ms linear;
+}
 
 footer{
     margin-top: 39.5%;
@@ -101,4 +122,13 @@ footer a{
     fill:var(--text-main);
     scale:0.4;
     transform:translate(12rem , 7rem);
+}
+
+@keyframes fade {
+    from{
+        max-width: 0px;
+    }    
+    to {
+        max-width: 400px;
+    }
 }
