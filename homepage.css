@@ -11,11 +11,10 @@ body{
 
 @font-face {
     font-family: 'balls';
-    src: url("sgs.ttf") format("truetype");
-    src: url("sgs.woff2") format("woff2");
-    src: url("sgs.woff") format("woff");
+    src: url("fonts/sgs.ttf") format("truetype");
+    src: url("fonts/sgs.woff2") format("woff2");
+    src: url("fonts/sgs.woff") format("woff");
 }
-
 header{
     margin-left: 5%;
     margin-top: 2.5%;
@@ -49,7 +48,6 @@ nav a.left {
     color: var(--text-main);
 }
 
-
 nav a.left:after {
     content: '';
     position: absolute;
@@ -68,31 +66,37 @@ nav a.left:hover:after {
     transform-origin: bottom left;
 }
 
-.intro {
-    margin-top: 5%;
-    margin-left: 3%;
-    font-size: 115%;
+.intro{
+    margin: 5%;
 }
-div.intro a.hide {
-    margin-top: 0%;
-    margin-left: 3%;
-    font-size: 115%;
-    display: none;
-    color:var(--text-main);
-}
-div.intro a.show {
-    margin-top: 5%;
-    margin-left: 3%;
-    font-size: 115%;
-    color:var(--text-main);
-    padding:0.24rem;
+
+.intro_header{
     background-color: var(--color-footer);
-    border-radius: 5px;
+    border: none;
+    padding: 1%;
+    width: 60%;
+    text-align: left;
+    font-size: 30px;
+    font-family: fairplex-wide, serif;
+    font-weight: 600;
+    font-style: normal;
 }
-div.intro a.show:hover + .hide{
-    display:block;
-    color: var(--text-main);
-    animation: fade 250ms linear;
+
+.intro_text{
+    background-color: var(--color-footer);
+    width: 59%;
+    padding-left: 1%;
+    margin-top: -2%;
+    display: none;
+    font-size: 20px;
+}
+
+.intro_text:hover{
+    display: block;
+}
+
+.intro_header:hover + .intro_text{
+    display: block;
 }
 
 footer{
@@ -101,7 +105,7 @@ footer{
 }
 
 .creators p{
-    margin-left: 5%;
+    margin-left: 6rem;
 }
 
 footer a{
@@ -119,17 +123,8 @@ footer a{
 }
 
 footer img {
-    height:2%;
-    width: 2%;
+    height:3%;
+    width: 3%;
     margin-left: 6rem;
     margin-bottom: 6rem;
-}
-
-@keyframes fade {
-    from{
-        max-width: 0px;
-    }    
-    to {
-        max-width: 400px;
-    }
 }
