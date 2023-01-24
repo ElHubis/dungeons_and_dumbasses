@@ -1,0 +1,105 @@
+:root { 
+    --text-main: #06022c;
+    --color-bg: #e4dabf;
+    --color-footer: #c5b999;
+}
+
+body{
+    background-color:#e4dabf;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'balls';
+    src: url("fonts/sgs.ttf") format("truetype");
+    src: url("fonts/sgs.woff2") format("woff2");
+    src: url("fonts/sgs.woff") format("woff");
+}
+
+header{
+    margin-left: 5%;
+    margin-top: 2.5%;
+    font-size: 350%;
+    font-family: 'balls', Fallback, sans-serif;
+}
+
+header a{
+    color: var(--text-main);
+    text-decoration: dashed;
+    font-family: 'balls';
+}
+
+nav{
+    margin-left: 50%;
+    margin-top: -2%;
+    font-size: 150%;
+}
+
+nav a{
+    margin-left: 10%;
+    text-decoration: underline 2px rgba(96, 33, 243, 0);
+    text-underline-offset: 5px;
+    padding: 0%;
+    color: var(--text-main);
+}
+
+nav a.left {
+    display: inline-block;
+    position: relative;
+    color: var(--text-main);
+}
+
+
+nav a.left:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--text-main);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+nav a.left:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+div{
+    margin-top: 5%;
+    margin-left: 3%;
+    max-width: 50%;
+    font-size: large;
+}
+
+footer{
+    margin-top: 39.5%;
+    background-color: var(--color-footer);
+}
+
+.creators p{
+    margin-left: 5%;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--text-main);
+    font-weight: bold;
+}
+
+.about p {
+    font-family: 'balls';
+    font-size: 250%;
+    margin-left: 5%;
+    padding-top: 2%;
+    color: var(--text-main);
+}
+
+#GitHubLogo {
+    fill:var(--text-main);
+    scale:0.4;
+    transform:translate(12rem , 7rem);
+}
