@@ -71,13 +71,36 @@ nav a.left:hover:after {
 .characters{
     display: inline-grid;
     grid-template-columns: auto auto;
-    margin: 15% 25%;
+    margin: 10% 10%;
     gap: 100px 300px;
 }
 
 .characters a{
+    margin-left: 40%;
     color: black;
     text-decoration: none;
+    font-size: 30px;
+}
+
+.char{
+    padding: 20px;
+    border: #06022c 1px solid;
+    border-radius: 4px;
+}
+
+.char svg{
+    margin-top: -5%;
+}
+
+.char p{
+    margin-left: 40%;
+    margin-top: -20%;
+    text-align: center;
+    width: 40%;
+}
+
+.char h3{
+    margin-top: 20%;
 }
 
 footer{
