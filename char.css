@@ -92,14 +92,47 @@ nav a.left:hover:after {
     margin-top: -5%;
 }
 
-.char p{
+.one p{
     margin-left: 40%;
     margin-top: -20%;
     text-align: center;
     width: 40%;
 }
 
-.char h3{
+.two p{
+    margin-left: 40%;
+    margin-top: -20%;
+    text-align: center;
+    width: 40%;
+}
+
+.three p{
+    margin-left: 40%;
+    margin-top: -20%;
+    text-align: center;
+    width: 40%;
+}
+
+.four p{
+    margin-left: 40%;
+    margin-top: -20%;
+    text-align: center;
+    width: 40%;
+}
+
+.one h3{
+    margin-top: 20%;
+}
+
+.two h3{
+    margin-top: 8%;
+}
+
+.three h3{
+    margin-top: 10%;
+}
+
+.four h3{
     margin-top: 20%;
 }
 
