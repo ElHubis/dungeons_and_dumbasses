@@ -21,9 +21,10 @@ body{
 }
 
 header{
-    margin-left: 5%;
-    margin-top: 2.5%;
-    font-size: 350%;
+    margin-left: 3.81rem;
+    margin-top: 3.06rem;
+    margin-bottom: 1.32rem;
+    font-size: 65px;
     font-family: 'balls', Fallback, sans-serif;
 }
 
@@ -73,24 +74,33 @@ nav a.left:hover:after {
 }
 
 img{
-    margin: 5%;
-    width: 15%;
+    margin-left: 5.7%;
+    margin-top: 5.75rem;
+    width: 328px 328px;
+    float:left;
 }
 
 .backstory {
-    margin-left: 25%;
-    margin-top: -22.62%;
-    max-width: 30%;
+    margin-left: 5.7%;
+    max-width: 25.6rem;
+    float:left;
 }
 
 .backstory h1{
-    text-align: center;
+    text-align: left;
+    margin-top: 5.75rem;
+    font-size: 35px
 }
 
 .info {
-    margin-left:60%;
-    margin-top: -69.5%;
+    margin-left: 5.7%;
+    float:left
+}
 
+.info h2{
+    font-size: 35px;
+    text-align: left;
+    margin-top: 5.75rem;
 }
 
 footer{
