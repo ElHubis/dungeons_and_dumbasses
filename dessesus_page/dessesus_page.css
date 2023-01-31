@@ -24,7 +24,7 @@ header{
     margin-left: 3.81rem;
     margin-top: 3.06rem;
     margin-bottom: 1.32rem;
-    font-size: 65px;
+    font-size: 350%;
     font-family: 'balls', Fallback, sans-serif;
 }
 
@@ -36,7 +36,7 @@ header a{
 
 nav{
     margin-left: 50%;
-    margin-top: -2%;
+    margin-top: -4%;
     font-size: 150%;
 }
 
@@ -53,7 +53,6 @@ nav a.left {
     position: relative;
     color: var(--text-main);
 }
-
 
 nav a.left:after {
     content: '';
@@ -103,9 +102,18 @@ img{
     margin-top: 5.75rem;
 }
 
+.info h3{
+    margin-top: 5rem;
+}
+
+.traits{
+    margin-top: -3.8rem;
+}
+
 footer{
-    margin-top: 1080px;
+    margin-top: 65rem;
     background-color: var(--color-footer);
+    padding-bottom: 15rem;
 }
 
 .creators p{
