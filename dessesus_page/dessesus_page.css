@@ -81,7 +81,7 @@ img{
 }
 
 .class p{
-    margin-top: 26rem;
+    margin-top: 24rem;
     margin-left: -16rem;
     float:left;
     font-size: 1.3rem;
@@ -89,7 +89,7 @@ img{
 
 .stats{
     float: left;
-    margin-top: 32rem;
+    margin-top: 29rem;
     margin-left: -16rem;
     display: inline-grid;
     grid-template-columns: auto auto auto;
@@ -98,9 +98,25 @@ img{
 
 .stat{
     background-color: #ffffff;
+    padding: 0rem 1.2rem 0rem 1.2rem;
+    border-radius: 1rem;
+}
+
+.information{
+    float: left;
+    margin-top: 44rem;
+    margin-left: -16.5rem;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    gap: 1rem 1rem;
+}
+
+.info{
+    background-color: #ffffff;
     padding: 0.3rem 1.2rem 0.3rem 1.2rem;
     border-radius: 1rem;
 }
+
 .backstory {
     margin-left: 5.7%;
     max-width: 25.6rem;
@@ -109,7 +125,7 @@ img{
 
 .backstory h1{
     text-align: left;
-    margin-top: 5.75rem;
+    margin-top: 5.27rem;
     font-size: 35px
 }
 
@@ -121,7 +137,7 @@ img{
 .personality h2{
     font-size: 35px;
     text-align: left;
-    margin-top: 5.75rem;
+    margin-top: 5.27rem;
 }
 
 .personality h3{
@@ -133,7 +149,7 @@ img{
 }
 
 footer{
-    margin-top: 65rem;
+    margin-top: 75rem;
     background-color: var(--color-footer);
     padding-bottom: 15rem;
 }
