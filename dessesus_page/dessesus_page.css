@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
 }
 
 :root { 
@@ -80,12 +81,26 @@ img{
 }
 
 .class p{
-    margin-top: 22rem;
+    margin-top: 26rem;
     margin-left: -16rem;
     float:left;
+    font-size: 1.3rem;
 }
 
+.stats{
+    float: left;
+    margin-top: 32rem;
+    margin-left: -16rem;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem 1rem;
+}
 
+.stat{
+    background-color: #ffffff;
+    padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+    border-radius: 1rem;
+}
 .backstory {
     margin-left: 5.7%;
     max-width: 25.6rem;
@@ -98,18 +113,18 @@ img{
     font-size: 35px
 }
 
-.info {
+.personality {
     margin-left: 5.7%;
     float:left
 }
 
-.info h2{
+.personality h2{
     font-size: 35px;
     text-align: left;
     margin-top: 5.75rem;
 }
 
-.info h3{
+.personality h3{
     margin-top: 5rem;
 }
 
