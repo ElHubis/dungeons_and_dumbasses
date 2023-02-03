@@ -79,6 +79,13 @@ img{
     float:left;
 }
 
+.class p{
+    margin-top: 22rem;
+    margin-left: -16rem;
+    float:left;
+}
+
+
 .backstory {
     margin-left: 5.7%;
     max-width: 25.6rem;
@@ -108,10 +115,6 @@ img{
 
 .traits{
     margin-top: -3.8rem;
-}
-
-.class p{
-
 }
 
 footer{
