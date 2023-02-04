@@ -4,16 +4,19 @@ body{
 }
 
 :root { 
-    --text-main: #06022c;
-    --color-bg: #e4dabf;
-    --color-footer: #c5b999;
+    --text-main: #212121;
+    --text-subheader: #707070;
+    --color-primary: #FFF;
+    --color-secondary: #F2F2F2;
+    --color-accent: #C67AEC;
+    --primary-gradient: linear-gradient(225deg, #F9CBCB, #D277FF 40%, #C3FCF2);
 }
 
 body{
-    background-color:var(--color-bg);
-    margin: 0;
+    background-image:var(--primary-gradient);
+    margin: 0;  
 }
-
+ 
 @font-face {
     font-family: 'balls';
     src: url("../fonts/sgs.ttf") format("truetype");
@@ -23,7 +26,7 @@ body{
 
 header{
     margin-left: 3.81rem;
-    margin-top: 3.06rem;
+    margin-top: 2.96rem;
     margin-bottom: 1.32rem;
     font-size: 350%;
     font-family: 'balls', Fallback, sans-serif;
@@ -34,10 +37,13 @@ header a{
     text-decoration: dashed;
     font-family: 'balls';
 }
-
+#line {
+    stroke: var(--text-main);
+    padding-top: 3rem;
+}
 nav{
     margin-left: 50%;
-    margin-top: -4%;
+    margin-top: -3.5rem;
     font-size: 150%;
 }
 
@@ -63,7 +69,7 @@ nav a.left:after {
     height: 3px;
     bottom: 0px;
     left: 0;
-    background-color: var(--text-main);
+    background-color: black;
     transform-origin: bottom right;
     transition: transform 250ms ease-out;
 }
@@ -71,6 +77,10 @@ nav a.left:after {
 nav a.left:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.profile{
+    color: var(--text-main)
 }
 
 img{
@@ -150,8 +160,9 @@ img{
 
 footer{
     margin-top: 75rem;
-    background-color: var(--color-footer);
+    background-color: var(--color-secondary);
     padding-bottom: 15rem;
+    z-index: 1;
 }
 
 .creators p{
