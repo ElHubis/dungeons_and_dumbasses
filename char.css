@@ -7,6 +7,7 @@
 body{
     background-color:var(--color-bg);
     margin: 0;
+    padding: 0;
 }
 
 @font-face {
@@ -68,6 +69,7 @@ nav a.left:hover:after {
     transform-origin: bottom left;
 }
 
+/*Universal character class settings*/
 .characters{
     display: inline-grid;
     grid-template-columns: auto auto;
@@ -76,64 +78,115 @@ nav a.left:hover:after {
 }
 
 .characters a{
-    margin-left: 40%;
     color: black;
     text-decoration: none;
-    font-size: 30px;
 }
 
+/*Universal char class setting*/
 .char{
     padding: 20px;
     border: #06022c 1px solid;
     border-radius: 4px;
 }
 
-.char svg{
-    margin-top: -5%;
+.char h4{
+    font-size: 2rem;
+}
+
+.char h6{
+    font-size: 1.6rem;
+}
+
+.char p{
+    font-size: 1.5rem;
+}
+
+
+/*arnold settings*/
+.one img{
+    width: 100px;
+}
+
+.one h4{
+    text-align: center;
+    margin-left: 50%;
+    margin-top: -15%;
+}
+
+.one h6{
+    margin-top: 15%;
 }
 
 .one p{
-    margin-left: 40%;
-    margin-top: -20%;
     text-align: center;
-    width: 40%;
+    margin-left: 60%;
+    margin-top: -30%;
+}
+
+/*Cheesecake settings*/
+
+.two img{
+    width: 100px;
+}
+
+.two h4{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: -30%;
+}
+
+.two h6{
+    margin-top: 30%;
 }
 
 .two p{
-    margin-left: 40%;
-    margin-top: -20%;
     text-align: center;
-    width: 40%;
+    margin-left: 40%;
+    margin-top: -50%;
+}
+
+/*Tess settings*/
+
+.three img{
+    width: 100px;
+}
+
+.three h4{
+    text-align: center;
+    margin-left: 35%;
+    margin-top: -20%;
+}
+
+.three h6{
+    margin-top: 15%;
 }
 
 .three p{
-    margin-left: 40%;
-    margin-top: -20%;
     text-align: center;
-    width: 40%;
+    margin-left: 35%;
+    margin-top: -40%;
+}
+
+/*Dessesus settings*/
+
+.four img{
+    width: 100px;
+}
+
+.four h4{
+    text-align: center;
+    margin-left: 60%;
+    margin-top: -30%;
+}
+
+.four h6{
+    margin-top: 30%;
 }
 
 .four p{
-    margin-left: 40%;
-    margin-top: -20%;
     text-align: center;
-    width: 40%;
-}
-
-.one h3{
-    margin-top: 20%;
-}
-
-.two h3{
-    margin-top: 8%;
-}
-
-.three h3{
-    margin-top: 10%;
-}
-
-.four h3{
-    margin-top: 20%;
+    margin-left: 60%;
+    margin-top: -30%;
 }
 
 footer{
