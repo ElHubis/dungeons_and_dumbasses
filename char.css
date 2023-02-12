@@ -82,6 +82,10 @@ nav a.left:hover:after {
     text-decoration: none;
 }
 
+.flex{
+    display: flex;
+}
+
 /*Universal char class setting*/
 .char{
     padding: 20px;

@@ -8,8 +8,9 @@ body{
     --text-subheader: #707070;
     --color-primary: #FFF;
     --color-secondary: #F2F2F2;
+    --color-secondary-st: #FFFFFF90;
     --color-accent: #C67AEC;
-    --primary-gradient: linear-gradient(225deg, #F9CBCB, #D277FF 40%, #C3FCF2);
+    --primary-gradient: linear-gradient(225deg, #F9CBCB, #D277FF 30%, #C3FCF2);
 }
 
 body{
@@ -107,7 +108,7 @@ img{
 }
 
 .stat{
-    background-color: #ffffff;
+    background-color:var(--color-secondary-st);
     padding: 0rem 1.2rem 0rem 1.2rem;
     border-radius: 1rem;
 }
@@ -122,7 +123,7 @@ img{
 }
 
 .info{
-    background-color: #ffffff;
+    background-color:var(--color-secondary-st);
     padding: 0.3rem 1.2rem 0.3rem 1.2rem;
     border-radius: 1rem;
 }
@@ -131,23 +132,30 @@ img{
     margin-left: 5.7%;
     max-width: 25.6rem;
     float:left;
+    background-color: var(--color-secondary-st);
+    padding: 1rem;
+    border-radius: 14px;
+    background-clip: border-box;
+    margin-top: 5.27rem;
 }
 
 .backstory h1{
     text-align: left;
-    margin-top: 5.27rem;
-    font-size: 35px
+    font-size: 35px;
 }
 
 .personality {
     margin-left: 5.7%;
-    float:left
+    float:left;
+    margin-top: 5.27rem;
+    background-color: var(--color-secondary-st);
+    padding: 1rem;
+    border-radius: 14px;
 }
 
 .personality h2{
-    font-size: 35px;
+    font-size: 34px;
     text-align: left;
-    margin-top: 5.27rem;
 }
 
 .personality h3{
