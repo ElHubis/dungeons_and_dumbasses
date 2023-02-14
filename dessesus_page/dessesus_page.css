@@ -14,7 +14,7 @@
 body{
     background-image:var(--primary-gradient);
     margin: 0;  
-    height: max-content;
+    min-height: fit-content;
 }
  
 @font-face {
@@ -25,18 +25,16 @@ body{
 }
 
 .header_bg {
-    background-color: var(--header-bg);
-    color: var(--header-text);
     padding-top: 0.1rem;
-    padding-bottom: 3rem;
+    align-items: baseline;
 }
 
 header{
     margin-left: 3.81rem;
     margin-top: 2.96rem;
-    margin-bottom: 1.32rem;
     font-size: 350%;
     font-family: 'balls', Fallback, sans-serif;
+    width: fit-content;
 }
 
 header a{
@@ -46,13 +44,14 @@ header a{
 }
 
 nav{
-    margin-left: 50%;
-    margin-top: -3.5rem;
+    margin-left: 46.1rem;
+    margin-top: -1.9rem;
     font-size: 150%;
+    min-width: 29rem;
 }
 
 nav a{
-    margin-left: 10%;
+    margin-left: 5rem;
     text-decoration: underline 2px rgba(96, 33, 243, 0);
     text-underline-offset: 5px;
     padding: 0%;
@@ -95,6 +94,21 @@ img{
     float:left;
     font-size: 1.3rem;
 }
+.backstory {
+    margin-left: 5.7%;
+    max-width: 25.6rem;
+    float:left;
+    background-color: var(--color-secondary-st);
+    padding: 1rem;
+    border-radius: 14px;
+    background-clip: border-box;
+    margin-top: 5.27rem;
+}
+
+.backstory h1{
+    text-align: left;
+    font-size: 35px;
+}
 
 .stats{
     float: left;
@@ -126,22 +140,6 @@ img{
     border-radius: 1rem;
 }
 
-.backstory {
-    margin-left: 5.7%;
-    max-width: 25.6rem;
-    float:left;
-    background-color: var(--color-secondary-st);
-    padding: 1rem;
-    border-radius: 14px;
-    background-clip: border-box;
-    margin-top: 5.27rem;
-}
-
-.backstory h1{
-    text-align: left;
-    font-size: 35px;
-}
-
 .personality {
     margin-left: 5.7%;
     float:left;
@@ -149,15 +147,13 @@ img{
     background-color: var(--color-secondary-st);
     padding: 1rem;
     border-radius: 14px;
+    max-width: 25.6rem;
 }
 
 .personality h2{
     font-size: 34px;
     text-align: left;
-}
-
-.personality h3{
-    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .traits{
@@ -165,10 +161,10 @@ img{
 }
 
 footer{
-    margin-top: calc(100vh + 14rem);
     background-color: var(--footer-bg);
     color: var(--footer-text);
     padding-bottom: 15rem;
+    margin-top: 74rem;
     z-index: 1;
 }
 
@@ -195,4 +191,37 @@ footer img {
     width: 3%;
     margin-left: 6rem;
     margin-bottom: 6rem;
+}
+
+        /*///////// smaller window sizes /////////*/
+
+@media screen and (max-width: 1474px) {
+
+
+nav {
+
+    margin-left: 50%;
+}
+
+
+footer{
+    margin-top: 69rem;
+
+}
+
+.backstory {
+    max-width: calc(40.75rem);
+}
+
+.personality {
+    margin-top: 2.8125rem;
+    max-width: 55.42rem;
+    height: 27.65rem;
+}
+
+.personality h2 {
+    margin-bottom: 5.5rem;
+
+}
+ 
 }
