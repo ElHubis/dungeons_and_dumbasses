@@ -84,6 +84,7 @@ nav a.left:hover:after {
 
 .flex{
     display: flex;
+    flex-direction: row-reverse;
 }
 
 /*Universal char class setting*/
@@ -109,22 +110,19 @@ nav a.left:hover:after {
 /*arnold settings*/
 .one img{
     width: 100px;
+    align-self: flex-start;
 }
 
 .one h4{
-    text-align: center;
-    margin-left: 50%;
-    margin-top: -15%;
+    align-self: flex-start;
 }
 
 .one h6{
-    margin-top: 15%;
+    align-self: flex-end;
 }
 
 .one p{
-    text-align: center;
-    margin-left: 60%;
-    margin-top: -30%;
+    align-self: flex-end;
 }
 
 /*Cheesecake settings*/
