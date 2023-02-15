@@ -73,8 +73,8 @@ nav a.left:hover:after {
 .characters{
     display: inline-grid;
     grid-template-columns: auto auto;
-    margin: 10% 10%;
-    gap: 100px 300px;
+    margin: 10rem 16.5rem;
+    gap: 100px 200px;
 }
 
 .characters a{
@@ -82,9 +82,10 @@ nav a.left:hover:after {
     text-decoration: none;
 }
 
-.flex{
+.char{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /*Universal char class setting*/
@@ -92,6 +93,7 @@ nav a.left:hover:after {
     padding: 20px;
     border: #06022c 1px solid;
     border-radius: 4px;
+    width: 350px;
 }
 
 .char h4{
@@ -110,19 +112,20 @@ nav a.left:hover:after {
 /*arnold settings*/
 .one img{
     width: 100px;
-    align-self: flex-start;
 }
 
 .one h4{
-    align-self: flex-start;
+    margin-left: 2rem;
 }
 
 .one h6{
-    align-self: flex-end;
+    
 }
 
 .one p{
-    align-self: flex-end;
+    width: 200px;
+    margin-left: 2rem;
+    margin-top: 3rem;
 }
 
 /*Cheesecake settings*/
@@ -132,19 +135,16 @@ nav a.left:hover:after {
 }
 
 .two h4{
-    text-align: center;
-    margin-left: 40%;
-    margin-top: -30%;
+    margin-left: 2rem;
 }
 
 .two h6{
-    margin-top: 30%;
+
 }
 
 .two p{
-    text-align: center;
-    margin-left: 40%;
-    margin-top: -50%;
+    width: 200px;
+    margin-left: 2rem;
 }
 
 /*Tess settings*/
@@ -154,19 +154,17 @@ nav a.left:hover:after {
 }
 
 .three h4{
-    text-align: center;
-    margin-left: 35%;
-    margin-top: -20%;
+    margin-left: 2rem;
 }
 
 .three h6{
-    margin-top: 15%;
+
 }
 
 .three p{
-    text-align: center;
-    margin-left: 35%;
-    margin-top: -40%;
+    width: 200px;
+    margin-left: 2rem;
+    margin-top: 3rem;
 }
 
 /*Dessesus settings*/
@@ -176,19 +174,17 @@ nav a.left:hover:after {
 }
 
 .four h4{
-    text-align: center;
-    margin-left: 60%;
-    margin-top: -30%;
+    margin-left: 2rem;
 }
 
 .four h6{
-    margin-top: 30%;
+    height: 61.5px;
 }
 
 .four p{
-    text-align: center;
-    margin-left: 60%;
-    margin-top: -30%;
+    width: 200px;
+    margin-left: 2rem;
+    margin-top: 4rem;
 }
 
 footer{
