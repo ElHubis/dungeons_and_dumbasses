@@ -142,7 +142,7 @@ img{
 }
 
 .backstory h1{
-    text-align: left;
+    text-align: center;
     font-size: 35px;
 }
 
@@ -153,11 +153,12 @@ img{
     background-color: var(--color-secondary-st);
     padding: 1rem;
     border-radius: 14px;
+    width: 25rem;
 }
 
 .personality h2{
     font-size: 34px;
-    text-align: left;
+    text-align: center;
 }
 
 .personality h3{

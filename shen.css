@@ -7,6 +7,7 @@
 body{
     background-color:#e4dabf;
     margin: 0;
+    padding: 0;
 }
 
 @font-face {
@@ -69,20 +70,22 @@ nav a.left:hover:after {
 }
 
 .shenanigans{
-    margin-top: 5%;
-    margin-left: 3%;
-    max-width: 50%;
-    font-size: large;
+display: inline-grid;
+grid-template-columns: auto auto auto;
 }
-.shenanigans p {
-    font-family: fairplex-wide, serif;
-    font-weight: 500;
-    font-style: normal;
-    color: var(--text-main);
-    background-color: var(--color-footer);
-    border-radius: 5px;
-    padding: 0.3rem
+
+.shenanigan {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 7rem;
+    margin-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid var(--text-main);
+    border-radius: 10px;
+    text-align: center;
 }
+
 
 footer{
     margin-top: 39.5%;
