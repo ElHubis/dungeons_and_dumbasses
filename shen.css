@@ -2,10 +2,11 @@
     --text-main: #06022c;
     --color-bg: #e4dabf;
     --color-footer: #c5b999;
+    --primary-gradient: linear-gradient(225deg, #F9CBCB, #D277FF 30%, #C3FCF2);
 }
 
 body{
-    background-color:#e4dabf;
+    background-image:var(--primary-gradient);
     margin: 0;
     padding: 0;
 }

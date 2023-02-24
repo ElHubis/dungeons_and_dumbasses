@@ -2,10 +2,11 @@
     --text-main: #06022c;
     --color-bg: #e4dabf;
     --color-footer: #c5b999;
+    --primary-gradient: linear-gradient(225deg, #F9CBCB, #D277FF 30%, #C3FCF2);
 }
 
 body{
-    background-color:var(--color-bg);
+    background-image:var(--primary-gradient);
     margin: 0;
 }
 
@@ -71,7 +72,6 @@ nav a.left:hover:after {
 }
 
 .intro_header{
-    background-color: var(--color-footer);
     border: none;
     padding: 1%;
     width: 40%;
@@ -83,7 +83,6 @@ nav a.left:hover:after {
 }
 
 .intro_text{
-    background-color: var(--color-footer);
     width: 39%;
     padding-left: 1%;
     margin-top: -2%;
