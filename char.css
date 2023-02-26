@@ -94,6 +94,30 @@ nav a.left:hover:after {
     border: #06022c 1px solid;
     border-radius: 4px;
     width: 350px;
+    position: relative;
+    cursor: pointer;
+}
+
+.char:hover::before{
+    opacity: 1;
+}
+
+.char::before{
+    background: radial-gradient(
+        250px circle at var(--mouse-x) var(--mouse-y),
+        rgba(255,255,255, 0.3),
+        transparent 40%
+    );
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 500ms   ;
+    width: 100%;
+    z-index: 2;
 }
 
 .char h4{
@@ -110,6 +134,10 @@ nav a.left:hover:after {
 
 
 /*arnold settings*/
+.one{
+    border: #0d44b1 2px solid;  
+}
+
 .one img{
     width: 100px;
 }
@@ -129,6 +157,9 @@ nav a.left:hover:after {
 }
 
 /*Cheesecake settings*/
+.two{
+    border: #a10db1 2px solid;  
+}
 
 .two img{
     width: 100px;
@@ -148,6 +179,9 @@ nav a.left:hover:after {
 }
 
 /*Tess settings*/
+.three{
+    border: #c1167d 2px solid;  
+}
 
 .three img{
     width: 100px;
@@ -168,6 +202,9 @@ nav a.left:hover:after {
 }
 
 /*Dessesus settings*/
+.four{
+    border: #017e40 2px solid;  
+}
 
 .four img{
     width: 100px;
