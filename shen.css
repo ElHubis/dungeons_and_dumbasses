@@ -77,9 +77,14 @@ nav a.left:hover:after {
 }
 
 .shenanigan {
-    width: 50rem;
+    width: 60rem;
     text-align: center;
     border-bottom: 1px solid black;
+}
+
+.shenanigan p{
+    width: 50rem;
+    margin-left: 5rem;
 }
 
 
