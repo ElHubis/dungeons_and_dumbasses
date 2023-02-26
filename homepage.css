@@ -101,6 +101,32 @@ nav a.left:hover:after {
     display: block;
 }
 
+
+.DM_tribute{
+    margin-left: 5rem;
+}
+
+.DM_grid{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+.DM_tribute h1{
+
+}
+
+.DM_tribute p{
+    margin-left: 3rem;
+    width: 30rem;
+}
+
+.DM_tribute img{
+    width: 40rem;
+    margin-top: 1rem;
+}
+
+
+
 footer{
     margin-top: 39.5%;
     background-color: var(--color-footer);

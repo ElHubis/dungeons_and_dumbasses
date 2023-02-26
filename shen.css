@@ -71,20 +71,15 @@ nav a.left:hover:after {
 }
 
 .shenanigans{
-display: inline-grid;
-grid-template-columns: auto auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .shenanigan {
-    width: 20rem;
-    height: 20rem;
-    margin-left: 7rem;
-    margin-top: 3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border: 1px solid var(--text-main);
-    border-radius: 10px;
+    width: 50rem;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 
