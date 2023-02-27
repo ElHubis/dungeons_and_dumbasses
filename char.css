@@ -98,14 +98,14 @@ nav a.left:hover:after {
     cursor: pointer;
 }
 
-.char:hover::before{
+.one:hover::before{
     opacity: 1;
 }
 
-.char::before{
+.one::before{
     background: radial-gradient(
         250px circle at var(--mouse-x) var(--mouse-y),
-        rgba(255,255,255, 0.3),
+        rgba(24, 33, 215, 0.3),
         transparent 40%
     );
     border-radius: inherit;
@@ -120,6 +120,71 @@ nav a.left:hover:after {
     z-index: 2;
 }
 
+.two:hover::before{
+    opacity: 1;
+}
+
+.two::before{
+    background: radial-gradient(
+        250px circle at var(--mouse-x) var(--mouse-y),
+        rgb(170, 6, 179, 0.3),
+        transparent 40%
+    );
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 500ms   ;
+    width: 100%;
+    z-index: 2;
+}
+
+.three:hover::before{
+    opacity: 1;
+}
+
+.three::before{
+    background: radial-gradient(
+        250px circle at var(--mouse-x) var(--mouse-y),
+        rgba(179, 6, 93, 0.3),
+        transparent 40%
+    );
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 500ms   ;
+    width: 100%;
+    z-index: 2;
+}
+
+.four:hover::before{
+    opacity: 1;
+}
+
+.four::before{
+    background: radial-gradient(
+        250px circle at var(--mouse-x) var(--mouse-y),
+        rgba(12, 141, 20, 0.3),
+        transparent 40%
+    );
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 500ms   ;
+    width: 100%;
+    z-index: 2;
+}
 .char h4{
     font-size: 2rem;
 }
@@ -135,7 +200,7 @@ nav a.left:hover:after {
 
 /*arnold settings*/
 .one{
-    border: #0d44b1 2px solid;  
+    border: rgb(24, 33, 215) 2px solid;  
 }
 
 .one img{
@@ -158,7 +223,7 @@ nav a.left:hover:after {
 
 /*Cheesecake settings*/
 .two{
-    border: #a10db1 2px solid;  
+    border: rgb(170, 6, 179) 2px solid;  
 }
 
 .two img{
@@ -180,7 +245,7 @@ nav a.left:hover:after {
 
 /*Tess settings*/
 .three{
-    border: #c1167d 2px solid;  
+    border: rgb(179, 6, 93) 2px solid;  
 }
 
 .three img{
@@ -203,7 +268,7 @@ nav a.left:hover:after {
 
 /*Dessesus settings*/
 .four{
-    border: #017e40 2px solid;  
+    border: rgb(12, 141, 20) 2px solid;  
 }
 
 .four img{
