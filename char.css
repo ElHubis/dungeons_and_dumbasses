@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image:var(--primary-gradient);
+    background-color: rgb(209, 222, 222);
     margin: 0;
     padding: 0;
 }
@@ -98,14 +98,14 @@ nav a.left:hover:after {
     cursor: pointer;
 }
 
-.one:hover::before{
+.char:hover::before{
     opacity: 1;
 }
 
-.one::before{
+.char::before{
     background: radial-gradient(
         250px circle at var(--mouse-x) var(--mouse-y),
-        rgba(24, 33, 215, 0.3),
+        '',
         transparent 40%
     );
     border-radius: inherit;
@@ -120,71 +120,6 @@ nav a.left:hover:after {
     z-index: 2;
 }
 
-.two:hover::before{
-    opacity: 1;
-}
-
-.two::before{
-    background: radial-gradient(
-        250px circle at var(--mouse-x) var(--mouse-y),
-        rgb(170, 6, 179, 0.3),
-        transparent 40%
-    );
-    border-radius: inherit;
-    content: "";
-    height: 100%;
-    left: 0px;
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    transition: opacity 500ms   ;
-    width: 100%;
-    z-index: 2;
-}
-
-.three:hover::before{
-    opacity: 1;
-}
-
-.three::before{
-    background: radial-gradient(
-        250px circle at var(--mouse-x) var(--mouse-y),
-        rgba(179, 6, 93, 0.3),
-        transparent 40%
-    );
-    border-radius: inherit;
-    content: "";
-    height: 100%;
-    left: 0px;
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    transition: opacity 500ms   ;
-    width: 100%;
-    z-index: 2;
-}
-
-.four:hover::before{
-    opacity: 1;
-}
-
-.four::before{
-    background: radial-gradient(
-        250px circle at var(--mouse-x) var(--mouse-y),
-        rgba(12, 141, 20, 0.3),
-        transparent 40%
-    );
-    border-radius: inherit;
-    content: "";
-    height: 100%;
-    left: 0px;
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    transition: opacity 500ms   ;
-    width: 100%;
-    z-index: 2;
-}
 .char h4{
     font-size: 2rem;
 }
