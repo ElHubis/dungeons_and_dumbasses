@@ -98,8 +98,7 @@ nav a.left:hover:after {
 /*Universal char class setting*/
 .char{
     padding: 20px;
-    border: #06022c 1px solid;
-    background-color:   var(--primary-text);
+    background-color: var(--primary-text);
     padding: 20px;
     height: 300px;
     aspect-ratio: 1.6180;
