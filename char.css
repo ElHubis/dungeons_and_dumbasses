@@ -1,24 +1,25 @@
 :root { 
-    --primary-text: #131418;
+    --page-bg: #efeaef;
+    --primary-text: #e8e7e7;
     --text-subheader: #707070;
     --color-primary: #FFF;
     --color-secondary: #F0F0FF7F;
     --color-secondary-st: #FFFFFF90;
     --color-accent: #C67AEC;
-    --footer-bg: #101113; 
-    --footer-text: #484848;
+    --footer-bg: #dedede; 
+    --footer-text: #212121;
     --primary-gradient: linear-gradient(225deg, #F9CBCB, #C67AEC 30%, #C3FCF2);
 }
 
 body{
-    background-color: var(--footer-bg);
+    background-color: var(--page-bg);
     margin: 0;
     padding: 0;
 }
 
 @font-face {
     font-family: 'balls';
-    src: url("fonts/sgs.ttf") format("truetype");
+    src: url("fonts/sgs.ttf") format(S"truetype");
     src: url("fonts/sgs.woff2") format("woff2");
     src: url("fonts/sgs.woff") format("woff");
 }
@@ -44,7 +45,7 @@ nav{
 
 nav a{
     margin-left: 10%;
-    text-decoration: underline 2px rgba(96, 33, 243, 0);
+    text-decoration: none;
     text-underline-offset: 5px;
     padding: 0%;
     color: var(--footer-text);
@@ -81,8 +82,9 @@ nav a.left:hover:after {
     display: grid;
     grid-template-columns: auto auto;
     place-self: center;
-    margin: 5rem;
-    gap: 10% 10%;
+    margin-top: 5rem;
+    justify-content: center;
+    gap: 10% 5%;
 }
 
 .characters a{
@@ -114,7 +116,7 @@ nav a.left:hover:after {
 .one::before{
     background: radial-gradient(
         250px circle at var(--mouse-x) var(--mouse-y),
-        rgba(24, 33, 215, 0.3), transparent 40%
+        rgba(24, 33, 215, 0.2), transparent 40%
     );
     border-radius: inherit;
     content: "";
@@ -299,7 +301,7 @@ nav a.left:hover:after {
 
 footer{
     margin-top: 15rem;
-    background-color: var(--color-footer);
+    background-color: var(--footer-bg);
 }
 
 .creators p{
