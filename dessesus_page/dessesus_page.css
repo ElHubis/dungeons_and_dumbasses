@@ -1,5 +1,6 @@
 
 :root {
+    --page-bg: #ffffff;
     --text-main: #212121;
     --text-subheader: #707070;
     --color-primary: #FFF;
@@ -12,7 +13,7 @@
 }
 
 body{
-    background-image:var(--primary-gradient);
+    background-image:var(--page-bg);
     margin: 0;  
     min-height: fit-content;
 }

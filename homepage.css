@@ -1,4 +1,5 @@
 :root { 
+    --page-bg: #ffffff;
     --text-main: #06022c;
     --color-bg: #e4dabf;
     --color-footer: #c5b999;
@@ -6,7 +7,7 @@
 }
 
 body{
-    background-image:var(--primary-gradient);
+    background-image:var(--page-bg);
     margin: 0;
 }
 
@@ -16,6 +17,7 @@ body{
     src: url("fonts/sgs.woff2") format("woff2");
     src: url("fonts/sgs.woff") format("woff");
 }
+
 header{
     margin-left: 5%;
     margin-top: 2.5%;
@@ -67,41 +69,6 @@ nav a.left:hover:after {
     transform-origin: bottom left;
 }
 
-.intro{
-    margin: 5%;
-}
-
-.intro_header{
-    border: none;
-    padding: 1%;
-    width: 40%;
-    text-align: left;
-    font-size: 30px;
-    font-family: fairplex-wide, serif;
-    font-weight: 600;
-    font-style: normal;
-}
-
-.intro_text{
-    width: 39%;
-    padding-left: 1%;
-    margin-top: -2%;
-    display: none;
-    font-size: 20px;
-    font-family: fairplex-narrow, serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.intro_text:hover{
-    display: block;
-}
-
-.intro_header:hover + .intro_text{
-    display: block;
-}
-
-
 .DM_tribute{
     margin-left: 5rem;
 }
@@ -123,36 +90,4 @@ nav a.left:hover:after {
 .DM_tribute img{
     width: 40rem;
     margin-top: 1rem;
-}
-
-
-
-footer{
-    margin-top: 39.5%;
-    background-color: var(--color-footer);
-}
-
-.creators p{
-    margin-left: 6rem;
-}
-
-footer a{
-    text-decoration: none;
-    color: var(--text-main);
-    font-weight: bold;
-}
-
-.about p {
-    font-family: 'balls';
-    font-size: 250%;
-    margin-left: 5%;
-    padding-top: 2%;
-    color: var(--text-main)
-}
-
-footer img {
-    height:3%;
-    width: 3%;
-    margin-left: 6rem;
-    margin-bottom: 6rem;
 }

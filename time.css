@@ -1,4 +1,5 @@
-:root { 
+:root {
+    --page-bg: #ffffff; 
     --text-main: #06022c;
     --color-bg: #e4dabf;
     --color-footer: #c5b999;
@@ -6,7 +7,7 @@
 }
 
 body{
-    background-image:var(--primary-gradient);
+    background-image:var(--page-bg);
     margin: 0;
     padding: 0;
 }

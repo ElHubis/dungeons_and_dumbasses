@@ -4,6 +4,7 @@ body{
 }
 
 :root {
+    --page-bg: #ffffff;
     --text-main: #212121;
     --text-subheader: #707070;
     --color-primary: #FFF;
@@ -16,7 +17,7 @@ body{
 }
 
 body{
-    background-image:var(--primary-gradient);
+    background-image:var(--page-bg);
     margin: 0;  
 }
  
@@ -27,30 +28,22 @@ body{
     src: url("../fonts/sgs.woff") format("woff");
 }
 
-.header_bg {
-    background-color: var(--header-bg);
-    color: var(--header-text);
-    padding-top: 0.1rem;
-    padding-bottom: 3rem;
-}
-
 header{
-    margin-left: 3.81rem;
-    margin-top: 2.96rem;
-    margin-bottom: 1.32rem;
+    margin-left: 5%;
+    margin-top: 2.5%;
     font-size: 350%;
     font-family: 'balls', Fallback, sans-serif;
 }
 
 header a{
+    color: var(--text-main);   
     text-decoration: dashed;
     font-family: 'balls';
-    color: var(--header-text);
 }
 
 nav{
     margin-left: 50%;
-    margin-top: -3.5rem;
+    margin-top: -2%;
     font-size: 150%;
 }
 
@@ -59,6 +52,7 @@ nav a{
     text-decoration: underline 2px rgba(96, 33, 243, 0);
     text-underline-offset: 5px;
     padding: 0%;
+    color: var(--text-main);
 }
 
 nav a.left {
@@ -81,7 +75,7 @@ nav a.left:after {
 }
 
 nav a.left:hover:after {
-    transform: scaleX(1);
+    transform:scaleX(1);
     transform-origin: bottom left;
 }
 
@@ -167,37 +161,4 @@ img{
 
 .traits{
     margin-top: -3.8rem;
-}
-
-footer{
-    margin-top: 75rem;
-    background-color: var(--footer-bg);
-    color: var(--footer-text);
-    padding-bottom: 15rem;
-    z-index: 1;
-}
-
-
-footer a{
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--footer-text)
-}
-
-.about p {
-    font-family: 'balls';
-    font-size: 250%;
-    margin-left: 5%;
-    padding-top: 2%;
-}
-
-.creators p{
-    margin-left: 5%;
-}
-
-footer img {
-    height:3%;
-    width: 3%;
-    margin-left: 6rem;
-    margin-bottom: 6rem;
 }
