@@ -469,3 +469,33 @@ nav a.left:hover:after {
 .traits{
     margin-top: -3.8rem;
 }
+
+@media screen and (max-width: 1474px) {
+
+
+    nav {
+    
+        margin-left: 50%;
+    }
+    
+    
+    footer{
+        margin-top: 69rem;
+    
+    }
+    
+    .backstory {
+        max-width: calc(40.75rem);
+    }
+    
+    .personality {
+        margin-top: 2.8125rem;
+        max-width: 55.42rem;
+        height: 27.65rem;
+    }
+    
+    .personality h2 {
+        margin-bottom: 5.5rem;
+    
+    }
+}
