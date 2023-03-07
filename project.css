@@ -75,7 +75,20 @@ nav a.left:hover:after {
     transform-origin: bottom left;
 }
 
-/*Main page*/
+/*------- Main page -------*/
+.image-scroller img{
+    width: 40vmin;
+    height: 56vmin;
+    object-fit:cover;
+    object-position: center;
+}
+
+.image-scoller{
+    display: flex;
+    gap: 4vmin;
+    position: absolute; left:50%; top:50%; transform: translate(0%, -50%);
+}
+
 .DM_tribute{
     margin-left: 5rem;
 }
@@ -90,12 +103,7 @@ nav a.left:hover:after {
     width: 30rem;
 }
 
-.DM_tribute img{
-    width: 40rem;
-    margin-top: 1rem;
-}
-
-/*Main character page*/
+/*------- Main character page -------*/
 
 /*Universal character class settings*/
 .characters{
@@ -304,11 +312,83 @@ nav a.left:hover:after {
     margin-top: 4rem;
 }
 
-/*Shenanigans page*/
-.shenanigans{
+/*Timeline page*/
+.session_timeline{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 10% 5%;
+    margin-top: 2.5rem;
+}
+
+.expanded{
     display: flex;
+    position: fixed;
     flex-direction: column;
     align-items: center;
+    top: 12.5rem;
+    width: 100%;
+}
+
+.timeline_entry{
+    position: absolute;
+    text-align: center;
+    width: 50rem;
+    background-color: #e4e4e4;
+    padding: 1rem;
+    padding-bottom: 30rem;
+    border-radius: 0.5rem;
+}
+
+.session_1{
+    visibility: visible;
+}
+
+.session_2{
+    visibility: hidden;
+}
+
+.tess{
+    padding-bottom: 200rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------- Shenanigans page -------*/
+.shenanigans{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 }
 
 .shenanigan {
