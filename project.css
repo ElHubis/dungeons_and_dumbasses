@@ -80,7 +80,7 @@ nav a.left:hover:after {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(0%, -58%); 
+    transform: translate(-50%, -58%); 
     user-select: none;
   }
   
@@ -89,6 +89,7 @@ nav a.left:hover:after {
     height: 56vmin;
     object-fit: cover;
     object-position: 100% center;
+    border-radius: 4px;
   }
 
 .DM_tribute{
