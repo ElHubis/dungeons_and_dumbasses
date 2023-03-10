@@ -74,6 +74,11 @@ nav a.left:hover:after {
 }
 
 /*------- Main page -------*/
+
+body.backdrop {
+    background-image: url("img/12011.jpg");
+    background-size: 100%;
+}
 #image-track{
     display: flex;
     gap: 4vmin;
