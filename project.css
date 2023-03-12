@@ -6,14 +6,6 @@
     --character-sub-text-bg: #dad7d790;
     --primary-gradient: linear-gradient(225deg, #F9CBCB, #D277FF 30%, #C3FCF2);
 }
-
-body{
-    height: 100vh;
-    width: 100vw;
-    background-color: #FFF;
-    margin: 0;
-    overflow-x: hidden;
-}
  
 @font-face {
     font-family: 'balls';
@@ -22,30 +14,51 @@ body{
     src: url("../fonts/sgs.woff") format("woff");
 }
 
+/* ------- Universal -------*/
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFF;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: var(--character-main-bg);
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 header{
-    margin-left: 5%;
-    margin-top: 2.5%;
+    font-family: "obviously-variable",sans-serif;
+    font-variation-settings: 'ital' 0, 'wdth' 87, 'wght' 560;
     font-size: 350%;
-    font-family: 'balls', Fallback, sans-serif;
+    margin-left: 5rem;
 }
 
 header a{
     color: var(--header-text);   
     text-decoration: dashed;
-    font-family: 'balls';
+    font-family: "obviously-variable",sans-serif;
+    font-variation-settings: 'ital' 0, 'wdth' 87, 'wght' 600;
 }
 
 nav{
-    margin-left: 50%;
-    margin-top: -2%;
-    font-size: 150%;
+    font-size: 160%;
+    margin-left: 10rem;
+    margin-top: 0.9rem;
 }
 
 nav a{
-    margin-left: 10%;
+    font-family: "obviously-variable",sans-serif;
+    font-variation-settings: 'ital' 0, 'wdth' 77, 'wght' 450;
+    margin-left: 8rem;
     text-decoration: underline 2px rgba(96, 33, 243, 0);
     text-underline-offset: 5px;
-    padding: 0%;
     color: var(--header-text);
 }
 
@@ -77,15 +90,17 @@ nav a.left:hover:after {
 
 body.backdrop {
     background-image: url("img/12011.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
 }
+
 #image-track{
     display: flex;
     gap: 4vmin;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(0%, -58%); 
+    transform: translate(0%, -45%); 
     user-select: none;
   }
   
