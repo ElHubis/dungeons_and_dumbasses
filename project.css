@@ -25,7 +25,7 @@ body{
 }
 
 .navbar{
-    background-color: var(--character-main-bg);
+    background-color: black;
     padding-top: 2.5rem;
     padding-bottom: 2rem;
     display: flex;
@@ -41,31 +41,33 @@ header{
 }
 
 header a{
-    color: var(--header-text);   
+    color: white;
     text-decoration: dashed;
-    font-family: "obviously-variable",sans-serif;
-    font-variation-settings: 'ital' 0, 'wdth' 87, 'wght' 600;
+    font-family: "elza",sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 nav{
-    font-size: 160%;
-    margin-left: 10rem;
+    font-size: 150%;
+    margin-left: 2rem;
     margin-top: 0.9rem;
 }
 
 nav a{
-    font-family: "obviously-variable",sans-serif;
-    font-variation-settings: 'ital' 0, 'wdth' 77, 'wght' 450;
+    font-family: "elza",sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin-left: 8rem;
     text-decoration: underline 2px rgba(96, 33, 243, 0);
     text-underline-offset: 5px;
-    color: var(--header-text);
+    color: white;
 }
 
 nav a.left {
     display: inline-block;
     position: relative;
-    color: var(--header-text);
+    color: white;
 }
 
 nav a.left:after {
@@ -76,7 +78,7 @@ nav a.left:after {
     height: 3px;
     bottom: 0px;
     left: 0;
-    background-color: var(--header-text);
+    background-color: white;
     transform-origin: bottom right;
     transition: transform 250ms ease-out;
 }
@@ -115,8 +117,17 @@ body.backdrop {
 }
 
 .DM_tribute{
+    font-family: "elza",sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin-top: 41.5rem;
-    margin-left: 5rem;  
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: #000000aa;
+    border-radius: 8px;
+    max-width: fit-content;
 }
 
 .DM_grid{
@@ -127,6 +138,9 @@ body.backdrop {
 .DM_tribute p{
     margin-left: 2.3rem;
     width: 30rem;
+    font-family: "adelle",sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .DM_tribute img{
@@ -265,6 +279,97 @@ body.backdrop {
 
 .char p{
     font-size: 1.5rem;
+}
+
+/*Character sub pages*/
+.sub_char_image{
+    margin-left: 5.7%;
+    margin-top: 5.75rem;
+    width: 258px;
+    height: 258px;
+    float:left;
+}
+
+.class p{
+    margin-top: 24rem;
+    margin-left: -16rem;
+    float:left;
+    font-size: 1.3rem;
+}
+
+.stats{
+    float: left;
+    margin-top: 29rem;
+    margin-left: -16rem;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem 1rem;
+}
+
+.stat{
+    background-color:var(--character-sub-text-bg);
+    padding: 0rem 1.2rem 0rem 1.2rem;
+    border-radius: 1rem;
+}
+
+.information{
+    float: left;
+    margin-top: 44rem;
+    margin-left: -16.5rem;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    gap: 1rem 1rem;
+}
+
+.info{
+    background-color:var(--character-sub-text-bg);
+    padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+    border-radius: 1rem;
+}
+
+.backstory {
+    margin-left: 5.7%;
+    max-width: 25.6rem;
+    float:left;
+    background-color: var(--character-sub-text-bg);
+    padding: 1rem;
+    border-radius: 14px;
+    background-clip: border-box;
+    margin-top: 5.27rem;
+    font-family: "adelle", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.backstory h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.personality {
+    margin-left: 5.7%;
+    float:left;
+    margin-top: 5.27rem;
+    background-color: var(--character-sub-text-bg);
+    padding: 1rem;
+    border-radius: 14px;
+    max-width: 25.6rem;
+    font-family: "adelle", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.personality h2{
+    font-size: 34px;
+    text-align: center;
+}
+
+.personality h3{
+    margin-top: 4rem;
+}
+
+.traits{
+    margin-top: -3.8rem;
 }
 
 
@@ -408,90 +513,6 @@ body.backdrop {
     margin-left: 5rem;
 }
 
-/*Character sub pages*/
-.sub_char_image{
-    margin-left: 5.7%;
-    margin-top: 5.75rem;
-    width: 258px;
-    height: 258px;
-    float:left;
-}
-
-.class p{
-    margin-top: 24rem;
-    margin-left: -16rem;
-    float:left;
-    font-size: 1.3rem;
-}
-
-.stats{
-    float: left;
-    margin-top: 29rem;
-    margin-left: -16rem;
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-    gap: 1rem 1rem;
-}
-
-.stat{
-    background-color:var(--character-sub-text-bg);
-    padding: 0rem 1.2rem 0rem 1.2rem;
-    border-radius: 1rem;
-}
-
-.information{
-    float: left;
-    margin-top: 44rem;
-    margin-left: -16.5rem;
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    gap: 1rem 1rem;
-}
-
-.info{
-    background-color:var(--character-sub-text-bg);
-    padding: 0.3rem 1.2rem 0.3rem 1.2rem;
-    border-radius: 1rem;
-}
-
-.backstory {
-    margin-left: 5.7%;
-    max-width: 25.6rem;
-    float:left;
-    background-color: var(--character-sub-text-bg);
-    padding: 1rem;
-    border-radius: 14px;
-    background-clip: border-box;
-    margin-top: 5.27rem;
-}
-
-.backstory h1{
-    text-align: center;
-    font-size: 35px;
-}
-
-.personality {
-    margin-left: 5.7%;
-    float:left;
-    margin-top: 5.27rem;
-    background-color: var(--character-sub-text-bg);
-    padding: 1rem;
-    border-radius: 14px;
-    max-width: 25.6rem;
-}
-
-.personality h2{
-    font-size: 34px;
-    text-align: center;
-}
-
-.personality h3{
-    margin-top: 4rem;
-}
-
-.traits{
-    margin-top: -3.8rem;
-}
 
 @media screen and (max-width: 1474px) {
 
