@@ -26,8 +26,8 @@ body{
 
 .navbar{
     background-color: black;
-    padding-top: 2.5rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -43,20 +43,20 @@ header{
 header a{
     color: white;
     text-decoration: dashed;
-    font-family: "elza",sans-serif;
-    font-weight: 500;
+    font-family: "mr-eaves-sans",sans-serif;
+    font-weight: 700;
     font-style: normal;
 }
 
 nav{
-    font-size: 150%;
-    margin-left: 2rem;
+    font-size: 180%;
+    margin-left: 6rem;
     margin-top: 0.9rem;
 }
 
 nav a{
-    font-family: "elza",sans-serif;
-    font-weight: 400;
+    font-family: "mr-eaves-sans",sans-serif;
+    font-weight: 700;
     font-style: normal;
     margin-left: 8rem;
     text-decoration: underline 2px rgba(96, 33, 243, 0);
