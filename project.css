@@ -1,8 +1,8 @@
 :root {
-    --page-bg: #ffffff;
+    --page-bg: #1f1f1f;
     --header-text: #212121;
-    --main-text: #000000;
-    --character-main-bg: #ffffff;
+    --main-text: #EEE;
+    --character-main-bg: #1a1a1a;
     --character-sub-text-bg: #dad7d790;
     --primary-gradient: linear-gradient(225deg, #F9CBCB, #D277FF 30%, #C3FCF2);
 }
@@ -19,7 +19,7 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-color: #FFF;
+    background-color: var(--page-bg);
     margin: 0;
     overflow-x: hidden;
 }
@@ -154,9 +154,9 @@ body.backdrop {
     display: grid;
     grid-template-columns: auto auto;
     place-self: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     justify-content: center;
-    gap: 10% 5%;
+    gap: 5% 5%;
 }
 
 .characters a{
@@ -164,21 +164,37 @@ body.backdrop {
     text-decoration: none;  
 }
 
-.char{
-    display: inline-grid;
-    grid-template-columns: auto auto;
-}
 
 /*Universal char class setting*/
 .char{
-    padding: 20px;
-    background-color: var(--character-main-bg);
-    padding: 20px;
-    height: 300px;
+    font-family: "adelle", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 20px 20px;
+    height: 320px;
     aspect-ratio: 1.6180;
-    border-radius: 14px;
+    border-radius: 8px;
     position: relative;
     cursor: pointer;
+    background-color: var(--character-main-bg);
+    display: inline-grid;
+    grid-template-columns: 9rem auto ;
+}
+
+.char img{
+    aspect-ratio: 1;
+}
+
+.char > .name{
+    font-size: 2rem;
+}
+
+.char > .class{
+    font-size: 1.6rem;
+}
+
+.char > .short_story{
+    font-size: 1.5rem;
 }
 
 .one:hover::before{
@@ -266,18 +282,6 @@ body.backdrop {
     transition: opacity 500ms   ;
     width: 100%;
     z-index: 2;
-}
-
-.char h4{
-    font-size: 2rem;
-}
-
-.char h6{
-    font-size: 1.6rem;
-}
-
-.char p{
-    font-size: 1.5rem;
 }
 
 /*Character sub pages*/
