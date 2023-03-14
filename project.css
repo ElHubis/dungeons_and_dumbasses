@@ -116,22 +116,22 @@ body.backdrop {
     border: solid 2px;
 }
 
+.DM_grid{
+    display: inline-grid;
+    grid-template-columns: auto auto;   
+}
+
 .DM_tribute{
     font-family: "elza",sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 41.5rem;
+    margin-top: 36rem;
     margin-left: 5rem;
     padding: 0.5rem;
     color: white;
     background-color: #000000aa;
     border-radius: 8px;
     max-width: fit-content;
-}
-
-.DM_grid{
-    display: inline-grid;
-    grid-template-columns: auto auto;   
 }
 
 .DM_tribute p{
@@ -461,6 +461,7 @@ body.backdrop {
 }
 
 .session_summary{
+    color: var(--main-text);
     width: 20rem;
     padding: 2rem;
     border: #000000 1px solid;
@@ -509,7 +510,7 @@ body.backdrop {
     width: 60rem;
     text-align: center;
     border-bottom: 1px solid black;
-    color: #ffffff;
+    color: var(--main-text);
 }
 
 .shenanigan p{
