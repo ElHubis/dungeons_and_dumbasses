@@ -500,22 +500,22 @@ body.backdrop {
 
 /*------- Shenanigans page -------*/
 .shenanigans{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .shenanigan {
     width: 60rem;
     text-align: center;
     border-bottom: 1px solid black;
+    color: #ffffff;
 }
 
 .shenanigan p{
     width: 50rem;
     margin-left: 5rem;
 }
-
 
 @media screen and (max-width: 1474px) {
 
