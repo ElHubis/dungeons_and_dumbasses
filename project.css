@@ -1,7 +1,7 @@
 :root {
-    --page-bg: #1f1f1f;
+    --page-bg: #111;
     --header-text: #FFF;
-    --header-bg: #0b0211;
+    --header-bg: #111111;
     --main-text: #EEE;
     --character-main-bg: #1a1a1a;
     --character-sub-text-bg: #dad7d790;
@@ -28,8 +28,8 @@ body{
 
 .navbar{
     background-color: var(--header-bg);
-    padding-top: 3rem;
-    padding-bottom: 1.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -56,14 +56,14 @@ header{
 header a{
     color: white;
     text-decoration: dashed;
-    font-family: "obviously-variable",sans-serif;
+    font-family: 'Cherry Swash', cursive, "obviously-variable",sans-serif;
     font-variation-settings: 'ital' 0, 'wdth' 87, 'wght' 560;
     transition: font-variation-settings 200ms ease-in-out;
     padding: 10px;
 }
 
 header a:hover{
-    font-variation-settings: 'ital' 0, 'wdth' 100, 'wght' 600;
+    font-variation-settings: 'ital' 0, 'wdth' 87, 'wght' 600;
 }
 
 #dumbasses{
@@ -135,7 +135,7 @@ body.backdrop {
     object-fit: cover;
     object-position: 100% center;
     border-radius: 8px;
-    border-color: #000;
+    border-color: var(--header-bg);
     border: solid 2px;
 }
 
@@ -153,7 +153,7 @@ body.backdrop {
     margin-left: 5rem;
     padding: 0.5rem;
     color: white;
-    background-color: #000000;
+    background-color: var(--header-bg);
     border-radius: 8px;
     max-width: fit-content;
 }
