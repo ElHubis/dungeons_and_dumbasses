@@ -22,6 +22,7 @@ body{
     width: 100vw;
     background-color: var(--page-bg);
     background-position-y: 8.7rem;
+    background-color: #000;
     margin: 0;
     overflow-x: hidden;
 }
@@ -33,11 +34,22 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    user-select: none;
+}
+
+.navbar p{
+    color: var(--header-bg);
+    position: absolute;
+    margin-left: 89vmax;
+    margin-bottom: 6rem;
+    font-family: adelle, sans-serif;
+    font-weight: 500;
 }
 
 header{
-    font-family: "obviously-variable",sans-serif;
-    font-variation-settings: 'ital' 0, 'wdth' 87, 'wght' 560;
+    font-family: "mr-eaves-sans",sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 350%;
     margin-left: 5rem;
 }
@@ -45,9 +57,14 @@ header{
 header a{
     color: white;
     text-decoration: dashed;
-    font-family: "mr-eaves-sans",sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    font-family: "obviously-variable",sans-serif;
+    font-variation-settings: 'ital' 0, 'wdth' 87, 'wght' 560;
+    transition: font-variation-settings 200ms ease-in-out;
+    padding: 10px;
+}
+
+header a:hover{
+    font-variation-settings: 'ital' 0, 'wdth' 100, 'wght' 600;
 }
 
 #dumbasses{
@@ -55,9 +72,10 @@ header a{
 }
 
 nav{
-    font-size: 180%;
-    margin-left: 6rem;
+    position: absolute;
+    margin-left: 50rem;
     margin-top: 0.9rem;
+    font-size: 180%;
 }
 
 nav a{
