@@ -81,7 +81,7 @@ nav a{
     font-family: "mr-eaves-sans",sans-serif;
     font-weight: 700;
     font-style: normal;
-    margin-left: 8rem;
+    margin-left: 5rem;
     text-decoration: underline 2px rgba(96, 33, 243, 0);
     text-underline-offset: 5px;
     color: white;
@@ -547,28 +547,26 @@ body.backdrop {
 }
 
 @media screen and (max-width: 1474px) {
-
-
-    nav {
     
+    nav {
+
         margin-left: 50%;
     }
-    
+
     .backstory {
         min-width: calc(40.75rem + 10%);
     }
-    
+
     .personality {
         margin-top: 2.8125rem;
         min-width: calc(40.75rem + 10%);
-    }
-
+    }   
     .personality h3{
         margin-top: 1rem;
     }
-    
+
     .personality h2 {
         margin-bottom: 5.5rem;
-    
+
     }
 }
