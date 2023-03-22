@@ -1,5 +1,5 @@
 :root {
-    --page-bg: #111;
+    --page-bg: #1f1f1f;
     --header-text: #FFF;
     --header-bg: #111111;
     --main-text: #EEE;
@@ -378,7 +378,7 @@ body.backdrop {
 }
 
 .personality {
-    margin-left: 5.7%;
+    margin-left: 5.7rem;
     float:left;
     margin-top: 5.27rem;
     background-color: var(--character-sub-text-bg);
@@ -393,10 +393,11 @@ body.backdrop {
 .personality h2{
     font-size: 34px;
     text-align: center;
+    padding-bottom: 3rem;
 }
 
 .personality h3{
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .traits{
