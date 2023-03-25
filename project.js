@@ -107,3 +107,13 @@ function clickFunction_3(){
         session_3.style.visibility = "hidden"
     }
 }
+
+function clickFunction_7(){
+    var session_7 = document.getElementById("session_7");
+    if (session_7.style.visibility === "hidden") {
+        session_7.style.visibility = "visible";
+    } 
+    else{
+        session_7.style.visibility = "hidden"
+    }
+}
