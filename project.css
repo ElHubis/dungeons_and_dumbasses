@@ -225,92 +225,6 @@ body.backdrop {
     font-size: 1.5rem;
 }
 
-.one:hover::before{
-    opacity: 1;
-}
-
-.one::before{
-    background: radial-gradient(
-        250px circle at var(--mouse-x) var(--mouse-y),
-        rgba(24, 33, 215, 0.1), transparent 40%
-    );
-    border-radius: inherit;
-    content: "";
-    height: 100%;
-    left: 0px;
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    transition: opacity 500ms   ;
-    width: 100%;
-    z-index: 2;
-}
-
-.two:hover::before{
-    opacity: 1;
-}
-
-.two::before{
-    background: radial-gradient(
-        250px circle at var(--mouse-x) var(--mouse-y),
-        rgba(170, 6, 179, 0.1),
-        transparent 40%
-    );
-    border-radius: inherit;
-    content: "";
-    height: 100%;
-    left: 0px;
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    transition: opacity 500ms   ;
-    width: 100%;
-    z-index: 2;
-}
-
-.three:hover::before{
-    opacity: 1;
-}
-
-.three::before{
-    background: radial-gradient(
-        250px circle at var(--mouse-x) var(--mouse-y),
-        rgba(179, 6, 93, 0.1),
-        transparent 40%
-    );
-    border-radius: inherit;
-    content: "";
-    height: 100%;
-    left: 0px;
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    transition: opacity 500ms   ;
-    width: 100%;
-    z-index: 2;
-}
-
-.four:hover::before{
-    opacity: 1;
-}
-
-.four::before{
-    background: radial-gradient(
-        250px circle at var(--mouse-x) var(--mouse-y),
-        rgba(12, 141, 20, 0.1),
-        transparent 40%
-    );
-    border-radius: inherit;
-    content: "";
-    height: 100%;
-    left: 0px;
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    transition: opacity 500ms   ;
-    width: 100%;
-    z-index: 2;
-}
 
 /*Character sub pages*/
 .sub_char_image{
@@ -493,10 +407,11 @@ body.backdrop {
     color: var(--main-text);
     width: 20rem;
     padding: 2rem;
-    border: #000000 1px solid;
+    border: #7621af 1px solid;
     border-radius: 1rem;
     text-align: center;
     cursor: pointer;
+    z-index: 0;
 }
 
 .session_summary h5{
@@ -524,9 +439,41 @@ body.backdrop {
     visibility: hidden;
 }
 
-.tess{
-    padding-bottom: 200rem;
-}
+#osynlig1 {
+    width: 100vw;
+    min-height: 100%;
+    visibility: hidden;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  #osynlig2 {
+    width: 100vw;
+    min-height: 100vh;
+    visibility: hidden;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  #osynlig3 {
+    width: 100vw;
+    min-height: 100vh;
+    visibility: hidden;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  #osynlig7 {
+    width: 100vw;
+    min-height: 100vh;
+    visibility: hidden;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+  }
 
 /*------- Shenanigans page -------*/
 .shenanigans{
@@ -538,7 +485,7 @@ body.backdrop {
 .shenanigan {
     width: 60rem;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #7621af;
     color: var(--main-text);
 }
 

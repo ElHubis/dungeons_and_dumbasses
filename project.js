@@ -46,74 +46,47 @@
  
  window.ontouchmove = e => handleOnMove(e.touches[0]);
 
- /* --- Character main page --- */ 
-
-function handleOnMouseMove(e) {
-    const { currentTarget: target } = e;
-
-    const rect = target.getBoundingClientRect(), x = e.clientX - rect.left, y = e.clientY - rect.top;
-
-    target.style.setProperty("--mouse-x", `${x}px`);
-    target.style.setProperty("--mouse-y", `${y}px`);
-}
-
-for (const one of document.querySelectorAll(".one")) {
-    one.onmousemove = e => handleOnMouseMove(e);
-
-}
-
-for (const two of document.querySelectorAll(".two")) {
-    two.onmousemove = e => handleOnMouseMove(e);
-
-}
-
-for (const three of document.querySelectorAll(".three")) {
-    three.onmousemove = e => handleOnMouseMove(e);
-
-}
-
-for (const four of document.querySelectorAll(".four")) {
-    four.onmousemove = e => handleOnMouseMove(e);
-
-}
-
 /* --- Timeline Page --- */
-function clickFunction_1(){
+function clickFunction_1() {
     var session_1 = document.getElementById("session_1");
     if (session_1.style.visibility === "hidden") {
-        session_1.style.visibility = "visible";
-    } 
-    else{
-        session_1.style.visibility = "hidden"
+      session_1.style.visibility = "visible";
+      document.querySelector("#osynlig1").style.visibility = "visible";
+    } else {
+      session_1.style.visibility = "hidden";
+      document.querySelector("#osynlig1").style.visibility = "hidden";
     }
-}
-
-function clickFunction_2(){
+  }
+  
+  function clickFunction_2() {
     var session_2 = document.getElementById("session_2");
     if (session_2.style.visibility === "hidden") {
-        session_2.style.visibility = "visible";
-    } 
-    else{
-        session_2.style.visibility = "hidden"
+      session_2.style.visibility = "visible";
+      document.querySelector("#osynlig2").style.visibility = "visible";
+    } else {
+      session_2.style.visibility = "hidden";
+      document.querySelector("#osynlig2").style.visibility = "hidden";
     }
-}
-
-function clickFunction_3(){
+  }
+  
+  function clickFunction_3() {
     var session_3 = document.getElementById("session_3");
     if (session_3.style.visibility === "hidden") {
-        session_3.style.visibility = "visible";
-    } 
-    else{
-        session_3.style.visibility = "hidden"
+      session_3.style.visibility = "visible";
+      document.querySelector("#osynlig3").style.visibility = "visible";
+    } else {
+      session_3.style.visibility = "hidden";
+      document.querySelector("#osynlig3").style.visibility = "hidden";
     }
-}
+  }
 
-function clickFunction_7(){
+  function clickFunction_7() {
     var session_7 = document.getElementById("session_7");
     if (session_7.style.visibility === "hidden") {
-        session_7.style.visibility = "visible";
-    } 
-    else{
-        session_7.style.visibility = "hidden"
+      session_7.style.visibility = "visible";
+      document.querySelector("#osynlig7").style.visibility = "visible";
+    } else {
+      session_7.style.visibility = "hidden";
+      document.querySelector("#osynlig7").style.visibility = "hidden";
     }
-}
+  }
