@@ -2,7 +2,8 @@
     --page-bg: #1f1f1f;
     --header-text: #FFF;
     --header-bg: #111111;
-    --main-text: #EEE;
+    --main-text: #e1e1e4;
+    --accent-color: #7621af;
     --character-main-bg: #1a1a1a;
     --character-sub-text-bg: #dad7d790;
     --primary-gradient: linear-gradient(225deg, #F9CBCB, #D277FF 30%, #C3FCF2);
@@ -114,9 +115,10 @@ nav a.left:hover:after {
 /*------- Main page -------*/
 
 body.backdrop {
-    background-image: url("img/12011.jpg");
+    background-image: url("img/tabletopdown.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: 0 -10rem;    
 }
 
 #image-track{
@@ -136,7 +138,7 @@ body.backdrop {
     object-position: 100% center;
     border-radius: 8px;
     border-color: var(--header-bg);
-    border: solid 2px;
+    border: solid 2px var(--header-bg);
 }
 
 .DM_grid{
@@ -148,7 +150,7 @@ body.backdrop {
     font-family: "elza",sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 42.5rem;
+    margin-top: 38rem;
     margin-bottom: 2rem;
     margin-left: 5rem;
     padding: 0.5rem;
@@ -201,6 +203,7 @@ body.backdrop {
     padding: 20px 20px;
     height: 320px;
     aspect-ratio: 1.6180;
+    border: 1px solid var(--accent-color);
     border-radius: 8px;
     position: relative;
     cursor: pointer;
@@ -223,6 +226,7 @@ body.backdrop {
 
 .char > .short_story{
     font-size: 1.5rem;
+    min-width: 300px;
 }
 
 
@@ -236,6 +240,7 @@ body.backdrop {
 }
 
 .class p{
+    color: var(--main-text);
     margin-top: 24rem;
     margin-left: -16rem;
     float:left;
@@ -252,31 +257,18 @@ body.backdrop {
 }
 
 .stat{
-    background-color:var(--character-sub-text-bg);
+    color: var(--main-text);
+    border: 1px solid var(--accent-color);
     padding: 0rem 1.2rem 0rem 1.2rem;
     border-radius: 1rem;
 }
 
-.information{
-    float: left;
-    margin-top: 44rem;
-    margin-left: -16.5rem;
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    gap: 1rem 1rem;
-}
-
-.info{
-    background-color:var(--character-sub-text-bg);
-    padding: 0.3rem 1.2rem 0.3rem 1.2rem;
-    border-radius: 1rem;
-}
-
 .backstory {
+    color: var(--main-text);
     margin-left: 5.7%;
     max-width: 25.6rem;
     float:left;
-    background-color: var(--character-sub-text-bg);
+    border: 1px solid var(--accent-color);
     padding: 1rem;
     border-radius: 14px;
     background-clip: border-box;
@@ -292,13 +284,14 @@ body.backdrop {
 }
 
 .personality {
+    color: var(--main-text);
     margin-left: 5.7rem;
     float:left;
     margin-top: 5.27rem;
-    background-color: var(--character-sub-text-bg);
+    border: 1px solid var(--accent-color);
     padding: 1rem;
     border-radius: 14px;
-    max-width: 25.6rem;
+    width: 25.6rem;
     font-family: "adelle", serif;
     font-weight: 200;
     font-style: normal;
@@ -314,15 +307,28 @@ body.backdrop {
     margin-top: 2rem;
 }
 
+.arnold{
+    border: 1px solid rgb(12, 63, 194);
+}
+
+.cheesecake{
+    border: 1px solid rgb(148, 6, 148);
+}
+
+.decessus{
+    border: 1px solid rgb(8, 189, 8);
+}
+
+.tess{
+    border: 1px solid #2E7E88
+}
+
 .traits{
     margin-top: -3.8rem;
 }
 
 
 /*arnold settings*/
-.one{
-    border: rgb(24, 33, 215) 2px solid;  
-}
 
 .one img{
     width: 100px;
@@ -339,9 +345,6 @@ body.backdrop {
 }
 
 /*Cheesecake settings*/
-.two{
-    border: rgb(170, 6, 179) 2px solid;  
-}
 
 .two img{
     width: 100px;
@@ -357,9 +360,6 @@ body.backdrop {
 }
 
 /*Tess settings*/
-.three{
-    border: rgb(179, 6, 93) 2px solid;  
-}
 
 .three img{
     width: 100px;
@@ -376,9 +376,6 @@ body.backdrop {
 }
 
 /*Dessesus settings*/
-.four{
-    border: rgb(12, 141, 20) 2px solid;  
-}
 
 .four img{
     width: 100px;
@@ -405,6 +402,7 @@ body.backdrop {
 
 .session_summary{
     color: var(--main-text);
+    font-family: "adelle", cursive;
     width: 20rem;
     padding: 2rem;
     border: #7621af 1px solid;
@@ -431,11 +429,13 @@ body.backdrop {
     position: absolute;
     text-align: center;
     width: 50rem;
-    background-color: #eeeeee;
-    padding: 1rem;
-    padding-bottom: 30rem;
-    border: #000000 1px solid;
+    height: 34rem;
+    background-color: rgb(185, 189, 194);
+    font-family: "adelle", cursive;
+    font-size: medium;
+    border: var(--header-text) 1px solid;
     border-radius: 0.5rem;
+    padding: 1rem;
     visibility: hidden;
 }
 
@@ -484,6 +484,7 @@ body.backdrop {
 
 .shenanigan {
     width: 60rem;
+    font-family: "adelle", cursive;
     text-align: center;
     border-bottom: 1px solid #7621af;
     color: var(--main-text);
